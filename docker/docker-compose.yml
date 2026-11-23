@@ -23,7 +23,7 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: users
     volumes:
-      - postgres_data:/var/lib/postgresql   # <-- Solo cambia esta línea
+      - postgres_data:/var/lib/postgresql
 
 volumes:
-  postgres_data:   # <-- Este bloque se queda igual
+  postgres_data:
